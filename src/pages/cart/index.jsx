@@ -6,8 +6,7 @@ const Cart = ({ restorant }) => {
   return (
     <Link
       to={`/restorant/${restorant.id}`}
-      className="relative shadow overflow-hidden hover:bg-gray-200 hover-shadow-lg cursor-pointer transition "
-    >
+      className="relative shadow overflow-hidden hover:bg-gray-200 hover-shadow-lg cursor-pointer transition ">
       <span className="bg-red-500  py-1 px-3 text-sm absolute end-1 top-2 text-white rounded-md">
         {restorant.distance} km uzaklıkta
       </span>
