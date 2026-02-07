@@ -2,14 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap'); 
-@layer components { 
-    .container {
-        @apply max-w-[1440px] mx-auto p-5 lg:p-8;
-    }
-    .font-k{
-         font-family: "Knewave", system-ui;
-  font-weight: 400;
-  font-style: normal;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+@layer components {
+  .container {
+    @apply max-w-[1440px] mx-auto p-5 lg:p-8;
+  }
+  .font-k {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .basket-btn {
+    @apply p-3 text-red-500 hover:bg-red-100 transition rounded-lg;
+  }
 }

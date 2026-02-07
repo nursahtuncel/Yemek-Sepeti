@@ -7,6 +7,7 @@ import Cart from './pages/cart'
 import Restaurand from "./pages/restorant"
 import { useDispatch } from 'react-redux'
 import { getRestorants } from './redux/actions/restActions'
+import { getBasket } from './redux/actions/basketAction'
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
 
 useEffect(()=>{
   dispatch(getRestorants())
+  dispatch(getBasket())
   
 },[dispatch]
 )

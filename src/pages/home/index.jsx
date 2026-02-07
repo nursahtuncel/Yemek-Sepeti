@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Error from "../../components/error";
 import Loader from "../../components/loader";
-import Cart from "../cart";
+import Cart from "./cart";
 
 const Home = () => {
   const { isLoading, error, restorant } = useSelector(
